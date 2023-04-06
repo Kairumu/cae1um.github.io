@@ -1,5 +1,5 @@
 {
-  "homepage":"https://cae1um.github.io",
+  "homepage": "https://cae1um.github.io",
   "name": "app",
   "version": "0.1.0",
   "private": true,
@@ -10,7 +10,11 @@
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.6",
+    "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
+    "sass": "^1.60.0",
+    "scss": "^0.2.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
