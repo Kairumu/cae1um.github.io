@@ -1,11 +1,12 @@
 const sides = [
     { 
-        name : "ppopgi.io", 
-        img  : "https://firebasestorage.googleapis.com/v0/b/potfolio-ebeda.appspot.com/o/ppopgi.jpg?alt=media&token=570c9caa-cb5f-4637-b272-d84c1afd6d5c",
-        link : "https://ppopgi.io/",
+        name : "int-dev",
+        img  : "https://firebasestorage.googleapis.com/v0/b/potfolio-ebeda.appspot.com/o/int-devel.png?alt=media&token=dbea711e-b8c1-4b1d-808e-252591abb922",
+        link : "https://int-devel.web.app/",
         role : "#Design #Develop",
-        tech : "#react.js #firebase",
-        desc : 'Drawing user defined lots...',
+        tech : "#react-js #canvas",
+        desc : "Playing with canvas",
+
     },
     { 
         name : "pic_around",
@@ -40,6 +41,14 @@ const sides = [
         role : "#DataRefine #DataServing #Prototype", 
         tech : "#flask #jquery",
         desc : "Internal project, menu based recommend service",
+    },
+    { 
+        name : "ppopgi.io", 
+        img  : "https://firebasestorage.googleapis.com/v0/b/potfolio-ebeda.appspot.com/o/ppopgi.jpg?alt=media&token=570c9caa-cb5f-4637-b272-d84c1afd6d5c",
+        link : "https://ppopgi.io/",
+        role : "#Design #Develop",
+        tech : "#react.js #firebase",
+        desc : 'Drawing user defined lots...',
     },
     { 
         name : "Résumé",
