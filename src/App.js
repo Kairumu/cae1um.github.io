@@ -8,7 +8,7 @@ import Work         from "./Work";
 import Skills       from "./Skills";
 import Education    from "./Education";
 //import Research     from "./Research";
-import Contact      from "./Contact";
+//import Contact      from "./Contact";
 
 let cursor  = 0;
 let sliding = true;
