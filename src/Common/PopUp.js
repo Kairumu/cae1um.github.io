@@ -1,4 +1,3 @@
-import ReactMarkdown from 'react-markdown';
 
 const Component = (props) => {
     return (
@@ -6,7 +5,7 @@ const Component = (props) => {
             <div className="abs-center">
                 <div className="card">
                     <div className="card-body py-5 px-4">
-                        <ReactMarkdown source={props.popup}/>
+                        {props.popup}
                     </div>
                 </div>
             </div>
