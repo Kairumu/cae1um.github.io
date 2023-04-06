@@ -1,4 +1,4 @@
-import { useState, useEffect, } from 'react';
+import { useState, useCallback, } from 'react';
 import PopUp from '../Common/PopUp';
 import Embed from '../Common/Embed';
 
@@ -7,23 +7,17 @@ import { sides, naver, tmax, } from './Data';
 
 const ProjectCard = (props) => {
 
-    const link = props.card.link;
-
-    const [ accessable, setAccessable ] = useState(false);
-
-    useEffect(() => {
-        if (link === 'no links' || link.includes('asca0x') || link.includes('csmsk'))
-            return;
-        setAccessable(true);
-    }, [ link, ]);
+    const check_blocked = useCallback((_link) => {
+        return (_link === 'no links' || _link.includes('asca0x') || _link.includes('csmsk'));
+    }, []);
 
     return (
         <div className="col-6 col- p-1">
             <div className="card wrapper click" 
                 onClick={()=>{ 
-                    if (accessable) 
-                        return props.setEmbed(props.card.link); 
-                    props.setPopup(props.card.desc);
+                    if (check_blocked(props.card.link)) 
+                        return props.setPopup(props.card.desc);
+                    props.setEmbed(props.card.link); 
                 }}>
                 <img className="card-img" src={props.card.img} alt={props.card.name } style={{ height : "400px", objectFit: "cover", }}/>
                 <div className="abs-full dim">
