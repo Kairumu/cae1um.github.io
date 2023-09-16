@@ -35,7 +35,7 @@ const App = (props) => {
         if (page === "Education")   eduRef.current.scrollIntoView();
         const url = new URL(window.location);
         url.searchParams.set("page", page);
-        window.history.pushState({}, null, `${url.origin}${url.search}`);
+        window.history.pushState({}, null, `${url.origin}${url.pathname}${url.search}`);
         setTimeout(() => {
             sliding = false;
         }, 2000);
