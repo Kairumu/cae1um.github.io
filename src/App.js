@@ -60,7 +60,7 @@ const App = (props) => {
             setPage(page);
             const url = new URL(window.location);
             url.searchParams.set("page", page);
-            window.history.pushState({}, null, `${url.origin}${url.search}`);
+            window.history.pushState({}, null, `${url.origin}${url.pathname}${url.search}`);
         }
         window.addEventListener('scroll', handleScroll)
         return _ => window.removeEventListener('scroll', handleScroll) ;
