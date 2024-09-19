@@ -1,5 +1,22 @@
 const naver = [
     { 
+        name : "AutoFill - path validation & schema generator",
+        img  : "https://firebasestorage.googleapis.com/v0/b/portfolio-fb0e4.appspot.com/o/autofill.png?alt=media&token=2fb32cbd-1589-4bd6-86d0-f9a2395ace49", 
+        link : "http://dops-ktor-dev.n3r-project-dataops.svc.crpb1.io.navercorp.com:8080/schema/generation?path=hdfs://camino/user/caelum/forensics/test_data/tsv&format=csv&delimiter=\\t",
+        role : "#Design #Backend #Dataops", 
+        tech : "#ktor #hdfs #kerberos #n3r.app",
+        desc : `HDFS path validation & schema genertaion for file/collection`
+    },
+    { 
+        name : "Loca - c3_aide wrapper for poi x dataops",
+        img  : "https://firebasestorage.googleapis.com/v0/b/portfolio-fb0e4.appspot.com/o/loca.png?alt=media&token=12cbe1b3-cf50-4be2-b7ae-315467bda139", 
+        link : "asca0x1311",
+        //link : "https://oss.navercorp.com/localsearch-refine/loca",
+        role : "#DataRefine", 
+        tech : "#spark #c3_aide #brew",
+        desc : `Data pipeline devel environment : https://<oss>/localsearch-refine/loca`,
+    },
+    { 
         name : "Local DataPipe for Smartblock",
         img  : "https://firebasestorage.googleapis.com/v0/b/potfolio-ebeda.appspot.com/o/smartblock.png?alt=media&token=5386d236-d0d9-4518-a677-56cb3768fc93", 
         link : "asca0x1311",
@@ -17,16 +34,15 @@ const naver = [
         desc : `Provided search model and data pipeline for Shop/Item Demaecan Delivery Service`
     },
     { 
-        name : "Smartaround Shopping",
+        name : "SmartAround - Shopping",
         img  : "https://firebasestorage.googleapis.com/v0/b/potfolio-ebeda.appspot.com/o/shop.jpg?alt=media&token=972692cb-f0f8-465a-8e31-1880e8269d44", 
         link : "https://s.search.naver.com/p/around/search.naver?tab=shop",
         role : "#DataRefine #DataServing #Prototype", 
         tech : "#spark #clous #react.js",
-        desc : `Show POIs and Items around,
-                that are registered in NAVER Shopping service`,
+        desc : `Show POIs and Items around, that are registered in NAVER Shopping service`,
     },
     {
-        name : "PICK for Light Users", 
+        name : "SmartAround - Pick for Light Users", 
         img  : "https://firebasestorage.googleapis.com/v0/b/potfolio-ebeda.appspot.com/o/light_pick.jpg?alt=media&token=1b4c62bd-8ba7-4a78-9d6a-2603c54bca6a",
         link : "asca0x1311",
         role : "#DataRefine #DataServing #Prototype", 
@@ -34,7 +50,7 @@ const naver = [
         desc : "POI recommendation by gender-age group for NAVER users",
     },
     {
-        name : "Smartaround PICK Timeline", 
+        name : "SmartAround - Pick Timeline", 
         img  : "https://firebasestorage.googleapis.com/v0/b/potfolio-ebeda.appspot.com/o/pick.jpg?alt=media&token=f48ee6e4-06d5-4076-aa5e-24bbe629222e",
         link : "https://s.search.naver.com/p/around/search.naver?tab=pick",
         role : "#DataRefine #DataServing #Prototype", 
@@ -55,8 +71,7 @@ const naver = [
         link : "asca0x1311", 
         role : "#Design #Develop",
         tech : "#flask #react.js #hdfs",
-        desc : `Utility service used for browsing, viewing files in internal hdfs service,
-                developed for internal use...`,
+        desc : `Utility service used for browsing, viewing files in internal hdfs service, developed for internal use...`,
     },
     { 
         name : "Line Step (Deprecated)",
@@ -98,6 +113,14 @@ const tmax = [
 ];
 
 const sides = [
+    { 
+        name : "kalimba",
+        img  : "https://firebasestorage.googleapis.com/v0/b/portfolio-fb0e4.appspot.com/o/kalimba.png?alt=media&token=27f3ad34-61b8-4414-9908-1604d633596c",
+        link : "https://kalimba-team.web.app/",
+        role : "#Design #Develop",
+        tech : "#react-js #canvas",
+        desc : "Web collaborate white board",
+    },
     { 
         name : "int-dev",
         img  : "https://firebasestorage.googleapis.com/v0/b/potfolio-ebeda.appspot.com/o/int-devel.png?alt=media&token=dbea711e-b8c1-4b1d-808e-252591abb922",
