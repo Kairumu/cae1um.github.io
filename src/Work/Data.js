@@ -132,7 +132,7 @@ const sides = [
     },
     { 
         name : "enneagram",
-        img  : "https://private-user-images.githubusercontent.com/128444574/368963565-54b70391-977c-4fe4-b6f7-37b8a9219182.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjY3NDQ3MDcsIm5iZiI6MTcyNjc0NDQwNywicGF0aCI6Ii8xMjg0NDQ1NzQvMzY4OTYzNTY1LTU0YjcwMzkxLTk3N2MtNGZlNC1iNmY3LTM3YjhhOTIxOTE4Mi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwOTE5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDkxOVQxMTEzMjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02NjYwNjgwZTM0NWQ0NDkwZTUwMTE4YzFhZDg2YjNlNTk2MDk1OTJjYjRlZGVjYWMwODI1MDY5MDYwMjk5YWUxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.GF3RnH2yEx5rq9DgdlYhvzJDne-FZ4rsq7-SqYdlyKQ",
+        img  : "https://firebasestorage.googleapis.com/v0/b/portfolio-fb0e4.appspot.com/o/autofill.png?alt=media&token=2fb32cbd-1589-4bd6-86d0-f9a2395ace49",
         link : "https://free-enneagram.web.app/",
         role : "#Design #Develop",
         tech : "#react-js #firebase",
