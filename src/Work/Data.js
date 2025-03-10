@@ -2,7 +2,7 @@ const naver = [
     { 
         name : "AutoFill - path validation & schema generator",
         img  : "https://firebasestorage.googleapis.com/v0/b/portfolio-fb0e4.appspot.com/o/autofill.png?alt=media&token=2fb32cbd-1589-4bd6-86d0-f9a2395ace49", 
-        link : "http://dops-ktor-dev.n3r-project-dataops.svc.crpb1.io.navercorp.com:8080/schema/generation?path=hdfs://camino/user/caelum/forensics/test_data/tsv&format=csv&delimiter=\\t",
+        link : "http://cosmos.navercorp.com/catalog/create",
         role : "#Design #Backend #Dataops", 
         tech : "#ktor #hdfs #kerberos #n3r.app",
         desc : `HDFS path validation & schema genertaion for file/collection`
