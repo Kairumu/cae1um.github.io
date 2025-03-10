@@ -10,7 +10,7 @@ const Component = (props) => {
                     <div className="col-12 col-md-6" style={{ lineHeight:"48px", }}> 
                         <div className="navbar-brand text-dark click" onClick={ _ => share(props.setInfo) }> 
                             <strong style={{ color:"rgba(110, 140, 255, 0.9)", fontSize:"23px" }}> Applicant0 </strong>
-                            <small className="text-muted ps-3" style={{ fontSize:"13px" }}> for healthcare </small>
+                            <small className="text-muted ps-3" style={{ fontSize:"13px" }}> for all seamless life </small>
                         </div>
                     </div>
                     <div className="col-12 py-2">
