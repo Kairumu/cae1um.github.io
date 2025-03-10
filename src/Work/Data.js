@@ -132,7 +132,7 @@ const sides = [
     },
     { 
         name : "enneagram",
-        img  : "https://firebasestorage.googleapis.com/v0/b/portfolio-fb0e4.appspot.com/o/autofill.png?alt=media&token=2fb32cbd-1589-4bd6-86d0-f9a2395ace49",
+        img  : "https://firebasestorage.googleapis.com/v0/b/portfolio-fb0e4.appspot.com/o/enneagram.png?alt=media&token=ab4be9c8-48ab-4b88-b266-80e542422f97",
         link : "https://free-enneagram.web.app/",
         role : "#Design #Develop",
         tech : "#react-js #firebase",
