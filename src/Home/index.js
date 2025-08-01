@@ -8,7 +8,7 @@ const Home = (props) => {
                     <div style={{ height : "100vh",}}>
                         <div className="abs-center text-center">
                             <div className="display-5" onClick={ _ => share(props.setInfo)  }> 
-                              Hey, I'm Applicant0!
+                              Hey, I'm HyunSoo!
                             </div>
                             <div className="pt-4">
                                 <small style={{ color : "rgba(100, 150, 200, 0.9)", }}> 

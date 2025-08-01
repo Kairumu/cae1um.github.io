@@ -1,7 +1,15 @@
 const naver = [
     { 
+        name : "Naver Map - Realtime Trend",
+        img  : "https://github.com/Kairumu/open/blob/main/imgs/realtime.png?raw=true", 
+        link : "http://www.hankookilbo.com/News/Read/A2025062316370004182?did=NA",
+        role : "#Recommendation #MicroBatch #Design #DevLead", 
+        tech : "#Map #Service #Spark #LLM #RAG #n3r.app",
+        desc : `(Almost) real-time recommendation on nation-wide & local`
+    },
+    { 
         name : "AutoFill - path validation & schema generator",
-        img  : "https://firebasestorage.googleapis.com/v0/b/portfolio-fb0e4.appspot.com/o/autofill.png?alt=media&token=2fb32cbd-1589-4bd6-86d0-f9a2395ace49", 
+        img  : "https://github.com/Kairumu/open/blob/main/imgs/cosmos.png?raw=true", 
         link : "http://cosmos.navercorp.com/catalog/create",
         role : "#Design #Backend #Dataops", 
         tech : "#ktor #hdfs #kerberos #n3r.app",
@@ -9,9 +17,8 @@ const naver = [
     },
     { 
         name : "Loca - c3_aide wrapper for poi x dataops",
-        img  : "https://firebasestorage.googleapis.com/v0/b/portfolio-fb0e4.appspot.com/o/loca.png?alt=media&token=12cbe1b3-cf50-4be2-b7ae-315467bda139", 
-        link : "asca0x1311",
-        //link : "https://oss.navercorp.com/localsearch-refine/loca",
+        img  : "https://github.com/Kairumu/open/blob/main/imgs/loca.png?raw=true", 
+        link : "https://oss.navercorp.com/localsearch-refine/loca",
         role : "#DataRefine", 
         tech : "#spark #c3_aide #brew",
         desc : `Data pipeline devel environment : https://<oss>/localsearch-refine/loca`,
@@ -19,8 +26,7 @@ const naver = [
     { 
         name : "Local DataPipe for Smartblock",
         img  : "https://firebasestorage.googleapis.com/v0/b/potfolio-ebeda.appspot.com/o/smartblock.png?alt=media&token=5386d236-d0d9-4518-a677-56cb3768fc93", 
-        link : "asca0x1311",
-        //link : "https://m.search.naver.com/search.naver?query=%EB%B6%80%EC%82%B0+%EC%97%AC%ED%96%89",
+        link : "https://m.search.naver.com/search.naver?query=%EB%B6%80%EC%82%B0+%EC%97%AC%ED%96%89",
         role : "#DataRefine #DataServing", 
         tech : "#spark #clous",
         desc : `Data pipeline for Search service`
@@ -28,7 +34,7 @@ const naver = [
     { 
         name : "Demaecan Search",
         img  : "https://vos.line-scdn.net/strapi-cluster-instance-bucket-84/4_50f8a996f1.png", 
-        link : "https://s.search.naver.com/p/around/search.naver?tab=shop",
+        link : "https://www.hankyung.com/article/2021091739751",
         role : "#DataRefine #DataServing", 
         tech : "#spark #clous",
         desc : `Provided search model and data pipeline for Shop/Item Demaecan Delivery Service`
